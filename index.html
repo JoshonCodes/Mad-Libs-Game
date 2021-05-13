@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mad Lip</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h1>MAD LIP</h1>
+            <div class="line"></div>
+            <div class="form-control">
+                <label for="">Someone's Name</label>
+                <input type="text" id="person">
+            </div>
+            <div class="form-control">
+                <label for="">Noun</label>
+                <input type="text" id="noun">
+            </div>
+            <div class="form-control">
+                <label for="">Adjective</label>
+                <input type="text" id="adjective">
+            </div>
+        </form>
+        <button id="lib-button">Send It</button>
+
+        <p>Generated sentence:
+            <br>
+        <span id="sentence"></span>    
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
